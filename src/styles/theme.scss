@@ -1,0 +1,63 @@
+/* 主题色：蓝色（默认） / 绿色 —— 只用 html[data-theme] 切换，避免 :root 冲突 */
+:root {
+  --th-primary: #53c9ff;
+  --th-primary-active: #4ecbf5;
+  --th-primary-soft: #5eb0ff;
+  --th-primary-rgb: 83, 201, 255;
+  --th-bg-main: #05326a;
+  --th-bg-panel: rgba(5, 36, 70, 72%);
+  --th-bg-cell: rgba(33, 55, 83, 28%);
+  --th-bg-cell-hl: rgba(29, 145, 183, 12%);
+  --th-border: rgba(81, 193, 255, 31%);
+  --th-border-soft: rgba(111, 162, 208, 22%);
+  --th-border-item: rgba(111, 162, 208, 16%);
+  --th-text-muted: #a8c8e8;
+  --th-text-soft: #d7ecff;
+  --th-header-grad-1: rgba(94, 194, 255, 92%);
+  --th-header-grad-2: rgba(28, 149, 223, 92%);
+  --th-header-grad-3: rgba(54, 114, 139, 21%);
+  --th-panel-edge-1: rgba(25, 166, 255, 100%);
+  --th-panel-edge-2: rgba(27, 165, 242, 13%);
+  --th-panel-edge-3: rgba(0, 207, 255, 100%);
+  --th-footer-bg: rgba(20, 56, 82, 85%);
+  --th-footer-border: rgba(78, 160, 200, 35%);
+  --th-footer-hover: rgba(30, 80, 110, 95%);
+  --th-header-line: #008aff;
+  --th-title-grad-start: #b9cfff;
+  --th-chart-axis: rgba(174, 205, 233, 78%);
+  --th-chart-axis-line: rgba(112, 152, 189, 30%);
+  --th-chart-split: rgba(120, 160, 200, 18%);
+  --th-chart-tooltip-bg: rgba(17, 31, 52, 90%);
+  --th-chart-tooltip-border: rgba(86, 140, 194, 35%);
+}
+html[data-theme='green'] {
+  --th-primary: #3dff9a;
+  --th-primary-active: #22c55e;
+  --th-primary-soft: #6ee7b7;
+  --th-primary-rgb: 61, 255, 154;
+  --th-bg-main: #06281f;
+  --th-bg-panel: rgba(6, 42, 32, 78%);
+  --th-bg-cell: rgba(14, 56, 42, 40%);
+  --th-bg-cell-hl: rgba(16, 140, 96, 16%);
+  --th-border: rgba(61, 255, 154, 35%);
+  --th-border-soft: rgba(80, 200, 140, 28%);
+  --th-border-item: rgba(80, 200, 140, 20%);
+  --th-text-muted: #a8d8c0;
+  --th-text-soft: #d7f5e4;
+  --th-header-grad-1: rgba(34, 197, 94, 95%);
+  --th-header-grad-2: rgba(16, 185, 129, 92%);
+  --th-header-grad-3: rgba(12, 70, 50, 25%);
+  --th-panel-edge-1: rgba(52, 211, 153, 100%);
+  --th-panel-edge-2: rgba(16, 185, 129, 15%);
+  --th-panel-edge-3: rgba(110, 231, 183, 100%);
+  --th-footer-bg: rgba(8, 40, 30, 88%);
+  --th-footer-border: rgba(61, 220, 140, 40%);
+  --th-footer-hover: rgba(16, 70, 50, 95%);
+  --th-header-line: #22c55e;
+  --th-title-grad-start: #bbf7d0;
+  --th-chart-axis: rgba(174, 220, 200, 78%);
+  --th-chart-axis-line: rgba(100, 170, 140, 30%);
+  --th-chart-split: rgba(100, 160, 130, 18%);
+  --th-chart-tooltip-bg: rgba(12, 36, 28, 90%);
+  --th-chart-tooltip-border: rgba(74, 180, 130, 35%);
+}
