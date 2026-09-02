@@ -17,8 +17,6 @@ Vue3 + Three.js 变电站 / 电厂**数字孪生监控大屏**。中间为可交
 
 [▶ 在线体验：GitHub Pages 演示](https://zybkpro.github.io/ZP-PowerSubstation/)
 
-Topics 与 About 配置见 [docs/GITHUB_SEO.md](./docs/GITHUB_SEO.md)。
-
 ## 功能亮点
 
 - **三维站房** — Three.js 加载站房 / 设备 / 线路模型，轨道漫游与视角动画
