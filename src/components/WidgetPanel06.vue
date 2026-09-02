@@ -5,7 +5,7 @@
         <div
           class="item"
           v-for="{ name, event, type, time } in list"
-          :style="{ background: generateTypeColor(type, '55') }"
+          :style="{ background: generateTypeColor(type, true) }"
         >
           <div
             class="item-circle"

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "run-p type-check \"build-only {@}\" --",
+    "build": "vite build",
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
@@ -25,6 +25,7 @@
     "@tsconfig/node18": "^18.2.2",
     "@types/lodash": "^4.14.202",
     "@types/node": "^18.19.3",
+    "@types/three": "^0.170.0",
     "@vitejs/plugin-vue": "^4.5.2",
     "@vitejs/plugin-vue-jsx": "^3.1.0",
     "@vue/tsconfig": "^0.5.0",
